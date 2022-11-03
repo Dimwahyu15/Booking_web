@@ -4,6 +4,7 @@ import Navbar from '../../component/Navbar/Navbar'
 import Header from '../../component/Header/Header'
 import Featured from '../../component/Featured/Featured'
 import Content from '../../component/content/conten'
+import Footer from '../../component/footer/footer'
 
 const Home = () => {
   return (
@@ -15,6 +16,9 @@ const Home = () => {
       </div>
       <div className="contentContainer">
         <Content />
+      </div>
+      <div className="">
+        <Footer />
       </div>
 
     </div>
